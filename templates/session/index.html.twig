@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello SessionController!
+{% endblock %}
+
+{% block body %}
+	Hi, it's your
+	{{ app.session.get('nbVisited')}}th visit!
+{% endblock %}
